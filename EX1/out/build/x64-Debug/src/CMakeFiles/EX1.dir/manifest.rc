@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "D:/GitHub/Repositories/Arty525/homework-25/EX1/out/build/x64-Debug/src/CMakeFiles/EX1.dir/embed.manifest"
