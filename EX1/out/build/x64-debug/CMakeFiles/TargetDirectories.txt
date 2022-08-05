@@ -1,3 +1,0 @@
-D:/GitHub/Repositories/homework-25/EX1/out/build/x64-debug/CMakeFiles/EX1.dir
-D:/GitHub/Repositories/homework-25/EX1/out/build/x64-debug/CMakeFiles/edit_cache.dir
-D:/GitHub/Repositories/homework-25/EX1/out/build/x64-debug/CMakeFiles/rebuild_cache.dir
