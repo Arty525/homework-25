@@ -1,12 +1,20 @@
 #include "keyboard.h"
-//#include "EX2.cpp"
 
-void input(std::vector<int> numbers) {
-	int n;
+int n;
+void input(int n) {
 	std::cout << "Input numbers: " << std::endl;
-	for (int i = 0; i < numbers.size(); ++i) {
-		std::cout << i << ") ";
+	CYCLE{
+		std::cout << i+1 << ") ";
 		std::cin >> n;
-		write(n, numbers, i);
+		write(n, i);
+	}
+}
+void testInput(int n) {
+	std::cout << "Input numbers: " << std::endl;
+	CYCLE {
+		std::cout << i + 1 << ") ";
+		n = i+1;
+		std::cout << n << std::endl;
+		write(n, i);
 	}
 }

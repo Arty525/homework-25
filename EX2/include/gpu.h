@@ -1,4 +1,6 @@
 #pragma once
 #include "ram.h"
 
-void display(std::vector<int> numbers);
+extern void display(std::vector<int> numbers);
+extern void computeDisplay(int summ);
+extern void tcomputeDisplay(int summ);

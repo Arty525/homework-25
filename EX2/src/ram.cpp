@@ -1,5 +1,8 @@
 #include "ram.h"
-void write(int n, std::vector<int> numbers,int i) {
+
+std::vector<int> numbers;
+
+void write(int n, int i) {
 	if (numbers.size() < 8) {
 		numbers.push_back(n);
 	}

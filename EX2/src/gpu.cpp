@@ -1,7 +1,13 @@
 #include "gpu.h"
 
 void display(std::vector<int> numbers) {
-	for (int i = 0; i < numbers.size(); ++i) {
+	CYCLE {
 		std::cout << numbers[i] << std::endl;
 	}
+}
+void computeDisplay(int summ) {
+	std::cout << summ << std::endl;
+}
+void tcomputeDisplay(int summ) {
+	std::cout << summ << std::endl;
 }

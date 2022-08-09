@@ -5,5 +5,7 @@
 #include "gpu.h"
 #include "disk.h"
 
-std::vector<int> numbers;
-void write(int n, std::vector<int> numbers, int i);
+#define CYCLE for(int i = 0; i < 8; ++i)
+
+extern std::vector<int> numbers;
+extern void write(int n, int i);

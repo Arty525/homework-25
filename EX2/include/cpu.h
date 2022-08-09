@@ -1,4 +1,5 @@
 #pragma once
 #include "ram.h"
-
-int compute(std::vector<int> numbers);
+extern int summ;
+extern int compute(std::vector<int> numbers);
+extern int testCompute(std::vector<int> numbers);
