@@ -2,7 +2,7 @@
 
 std::fstream file;
 void save(std::vector<int> numbers) {
-	file.open("file.txt", std::ios::app);
+	file.open("file.txt");
 	CYCLE {
 		file << numbers[i] << std::endl;
 	}
